@@ -1,0 +1,88 @@
+*{
+
+}
+.divForm{
+
+    width:400px;
+
+    height:400px;
+
+    background-color:grey;
+
+    padding-top:150px;
+
+    padding-left:50px;
+
+}
+
+
+
+
+form input[name="firstname"]{
+
+    width:300px;
+
+    height:35px;
+
+    border-radius:5px;
+
+    border:none;
+
+}
+
+
+
+
+form input[name="firstname"] + span{
+
+    font-family:alk-sanet;
+
+    position:relative;
+
+    top:-2px;
+
+    left:-300px;
+
+    opacity:0.6;
+
+    transition:.9s;
+
+}
+
+
+
+form input[name=firstname]:focus{
+
+    outline:none;
+
+}
+
+form input[name=firstname]:focus + span{
+
+    top:-40px;
+
+    left:-300px;
+
+    opacity:1;
+
+    color:yellow;
+
+}
+
+form input[name=lastname]:focus{
+
+    outline:none;
+
+}
+
+form input[name=lastname]:focus + span{
+
+    top:-40px;
+
+    left:-300px;
+
+    opacity:1;
+
+    color:yellow;
+
+}

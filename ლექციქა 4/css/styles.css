@@ -1,0 +1,40 @@
+body{
+background-color: rgb(252, 248, 248);
+}
+.productcard{
+    width: 300px;
+    background-color: white;
+    box-shadow: 3px 3px 6px grey;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+.text{
+    padding: 7px;
+}
+.productcard img{
+    width: 100%;
+    margin: 0;
+}
+.text h4{
+    text-align: center;
+    margin: 0;
+}
+.text h5{
+    text-align: center;
+    color:red;
+    margin: 0;
+}
+.text p{
+    margin: 5px;
+}
+#more{
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 7px 12px;
+}
+.alldives{
+   padding: 130px 170px;
+}

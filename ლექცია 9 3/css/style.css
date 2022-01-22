@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 1366px;
+    height: 640px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.945);
+}
+
+div{
+    width: 600px;
+    height: 340px;
+    background-color: rgba(104, 92, 92, 0.432);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    border-bottom: 2px solid white;
+    color:#fff;
+    font-size: 23px;
+    padding: 8px 0px;
+    transition: .1s;
+}
+
+.all .link:hover{
+    color: rgba(0, 0, 0, 0.836);
+    background-color: #fff;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+

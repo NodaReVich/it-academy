@@ -1,0 +1,71 @@
+@font-face {
+    font-family: mtavruli;
+    src: url('../fonti/mtavruli.ttf');
+}
+nav{
+    width: auto;
+    height: 60px;
+    background-color: rgba(1, 17, 17, 0.623);
+    display: flex;
+    padding: 0px 80px;
+}
+.navbar-li{
+    color:white;
+    display: inline-block;
+    padding: 0px 25px;
+}
+nav p{
+    color:white;
+    display: inline-block;
+}
+.navbar-link{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    margin-left: auto;
+    
+}
+header{
+    width: auto;
+    height: 300px;
+    background-color: rgba(0, 0, 255, 0.747);
+}
+.texts{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.text1{
+    color: white;
+}
+.text2{
+    color: white;
+}
+.text3{
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+    padding: 2px 12px;
+}
+.info{
+    width: auto;
+    height: 275px;
+    background-color: rgb(250, 250, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info1{
+   margin: 0px 460px -10px -25px;
+   display: inline;
+}
+.info2{
+    display: inline;
+    margin: 15px 0px -7px -15px;
+}
+body{
+    margin: 0px;
+}

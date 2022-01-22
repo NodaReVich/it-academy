@@ -1,0 +1,175 @@
+*{box-sizing: border-box;}
+.row{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.863);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+}
+body{
+    margin: 0;
+}
+
+.site{
+    height: 657px;
+    margin: 0;
+    background-image: url(https://wallpaperaccess.com/full/124383.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.row .top{
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+}
+
+.row .top2{
+    color: #fff;
+    cursor: pointer;
+}
+.row .top3{
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.top3 svg{
+    padding: 0px 1px;
+}
+
+.topimg{
+    width: 30px;
+    height: 20px;
+    margin: 5px;
+    
+}
+.intop2{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+}
+.intop2 li{
+    margin-right: 20px;
+    position: relative;
+}
+
+.dropdown a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(221, 205, 202, 0.637);
+    padding: 5px 50px;
+    margin-left: 0px;
+}
+.dropdown{
+    width: 200px;
+    height: fit-content;
+    position: absolute;
+    left: -40px;
+    display: none;
+}
+.intop2 .drp:hover{
+    background-color: rgba(221, 205, 202, 0.637);
+}
+.intop2 .drp:hover .dropdown{
+    display: block;
+}
+
+.intop2 li:hover{
+    background-color: rgba(221, 205, 202, 0.637);
+}
+a:hover{
+    background-color: grey;
+}
+.botton{
+    height: 607px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inbotton{
+    position: relative;
+}
+.text {
+    width: 480px;
+    color: #fff;
+    text-align: center;
+    justify-content:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+
+}
+.text2{
+    width: 480px;
+    color: rgba(196, 165, 165, 0.959);
+    text-align: center;
+    justify-content:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link1{
+    color:#fff;
+    padding: 10px 15px;background-color: black;
+    text-decoration: none;
+    position: absolute;
+    left: 80px;
+    border: 2px solid #fff;
+}
+.link2{
+    color:black;
+    padding: 10px 15px;background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: absolute;
+    right: 80px;
+}
+@media (max-width:720px){
+    .row{
+        padding: 0;
+        font-size: 8px;
+    }
+    .site{
+        background-size: auto;
+    }
+
+}
+@media (max-width:500px){
+    .text2{
+        width: 200px;
+        font-size: 11px;
+        height: 60px;
+        margin: auto;
+    }
+    
+    .text{
+        width: 200px;
+        
+        font-size: 21px;
+        
+        margin: auto;
+    }
+    .link1{
+        font-size: 10px;
+    }
+    .link2{
+        font-size: 10px;
+    }
+}
+@media (max-width:425px){
+    .row .top{
+        display: none;
+    }
+    .row .top3{
+        display: none;
+    }
+}
+@media (max-width:380px){
+    .link1{
+        left: 30px;
+    }
+    .link2{
+        right: 30px;
+    }
+}

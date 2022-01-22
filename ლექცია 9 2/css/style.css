@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all{
+    position: relative;
+}
+
+.checkspan{
+    display: block;
+    width: 150px;
+    height: 60px;
+    background-color: rgba(128, 128, 128, 0.384);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+.all .checkspan:before{
+    content:"";
+    width: 60px;
+    height: 50px;
+    background-color: #fff;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 5px;
+    transition: .9s;
+}
+
+
+.all :checked ~ .checkspan:before{
+    background-color: green;
+    left: 85px;
+
+}
+
+.all :checked ~ .checkspan{
+    background-color: rgba(203, 236, 12, 0.76);
+}
+
+.point{
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 28px;
+    background-color: rgba(128, 128, 128, 0.384);
+}
+
+.all :checked ~ .point{
+    background-color: rgba(203, 236, 12, 0.76);
+    left: 112px;
+}

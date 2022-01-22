@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgba(12, 14, 14, 0.418);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    width: 250px;
+    height: 325px;
+    background-color: #fff;
+    margin: 0px 50px;
+    position: relative;
+}
+
+.card img{
+    width: 100%;
+    background-color: grey;
+}
+.image{
+    width: 100%;
+    height: 250px;
+}
+
+.card-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 17px 15px 5px;
+    font-size: 15px;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 17px 15px 5px;
+    font-size: 15px;
+    background-color: #fff;
+    
+}
+.text{
+    position: relative;
+    top: -80px;
+    background-color: #fff;
+}
+
+
+.card-bottom2{
+    color: grey;
+}
+
+.card-bottom3{
+    color: grey;
+    padding: 0px 15px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 11px;
+}
+
+.inposition{
+    padding: 8px 12px;
+    color: #fff;
+    border: 2px solid white;
+    position: absolute;
+    LEFT: 63PX;
+    BOTTOM: 240PX;
+    font-size: 12px;
+}
+.size{
+    display: inline-block;
+    padding: 17px 15px 1px;
+    font-size: 15px;
+}
+
+
+.card p{
+    color: grey;
+    padding: 0px 15px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 11px;
+}
+.boll1{
+    width: 8px;
+    height: 8px;
+    background-color: royalblue;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.boll2{
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.boll3{
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.boll4{
+    width: 8px;
+    height: 8px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.color{
+    display: inline-block;
+    padding: 10px 15px 1px;
+    font-size: 14px;
+}
+
+.bolls{
+    display: flex;
+    padding: 0px 15px 1px;
+}
+
+.img-back{
+    background-color: rgba(29, 194, 29, 0.404);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.image1{
+    position: relative;
+}
+
